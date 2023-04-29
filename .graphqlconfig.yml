@@ -1,0 +1,18 @@
+projects:
+  nikkinmobile-dev:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.ts
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: src/API.ts
+        docsFilePath: src/graphql
+        region: ap-northeast-1
+        apiId: ho2rim5bq5gcjnafch7vlk6abq
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3

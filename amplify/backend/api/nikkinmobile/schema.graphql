@@ -1,0 +1,19 @@
+type Post @model @auth(rules: [{allow: public}, {allow: private, operations: [read]}]) {
+  id: ID!
+  content: String!
+  doneTodo: Todo @hasOne
+}
+
+type UserSetting @model @auth(rules: [{allow: public}, {allow: private, operations: [read]}]) {
+  id: ID!
+  introduce: String
+  initialized: Boolean
+}
+
+type Todo @model @auth(rules: [{allow: public, operations: [read]}, {allow: owner}]) {
+  id: ID!
+  content: String!
+  done: Boolean!
+  deadline: AWSDateTime
+}
+ 

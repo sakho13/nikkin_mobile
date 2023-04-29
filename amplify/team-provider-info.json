@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nikkinmobile-dev-111541-authRole",
+      "UnauthRoleArn": "arn:aws:iam::321391789055:role/amplify-nikkinmobile-dev-111541-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::321391789055:role/amplify-nikkinmobile-dev-111541-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-nikkinmobile-dev-111541-deployment",
+      "UnauthRoleName": "amplify-nikkinmobile-dev-111541-unauthRole",
+      "StackName": "amplify-nikkinmobile-dev-111541",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:321391789055:stack/amplify-nikkinmobile-dev-111541/ea640e40-e245-11ed-92a3-06f4410b724d",
+      "AmplifyAppId": "d2ce6xnfbvtdjq"
+    },
+    "categories": {
+      "auth": {
+        "nikkinmobile": {}
+      }
+    }
+  }
+}
